@@ -1,17 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
+
 
 public class Player : MonoBehaviour
 {
     public GameObject player;
-    float speed = 100;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    int positionIndex = 1;
+    float leftPositionX = -1.2f;
+    float middlePositionX = 0f;
+    float rightPositionX = 1.2f;
 
     // Update is called once per frame
     void Update()
@@ -20,10 +19,17 @@ public class Player : MonoBehaviour
         {
             Vector3 position = this.transform.position;
 
-            if (position.x > -1.2f)
+            if (positionIndex == 1)
             {
-                position.x += -1.2f;
-                this.transform.position = position;
+                position.x = leftPositionX;
+                positionIndex = 0;
+                transform.DOMove(position, 0.5f);
+            }
+            else if (positionIndex == 2)
+            {
+                position.x = middlePositionX;
+                positionIndex = 1;
+                transform.DOMove(position, 0.5f);
             }
 
         }
@@ -32,10 +38,17 @@ public class Player : MonoBehaviour
         {
             Vector3 position = this.transform.position;
 
-            if (position.x < 1.2f)
+            if (positionIndex == 1)
             {
-                position.x += 1.2f;
-                this.transform.position = position;
+                position.x = rightPositionX;
+                positionIndex = 2;
+                transform.DOMove(position, 0.5f);
+            }
+            else if (positionIndex == 0)
+            {
+                position.x = middlePositionX;
+                positionIndex = 1;
+                transform.DOMove(position, 0.5f);
             }
         }
     }

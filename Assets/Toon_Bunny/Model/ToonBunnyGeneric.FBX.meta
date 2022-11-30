@@ -1,0 +1,1488 @@
+fileFormatVersion: 2
+guid: 8a5feb128d84faf49b823e97463c1f4d
+timeCreated: 1448449895
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bunny
+    100002: //RootNode
+    100004: BunnyHead
+    100006: BunnyHeadBone001
+    100008: BunnyHeadBone002
+    100010: BunnyHeadBone002Bone001
+    100012: BunnyHeadBone002Bone001 1
+    100014: BunnyHeadBone003
+    100016: BunnyLCalf
+    100018: BunnyLCollarbone
+    100020: BunnyLFinger11
+    100022: BunnyLFinger12
+    100024: BunnyLFinger21
+    100026: BunnyLFinger22
+    100028: BunnyLFoot
+    100030: BunnyLForearm
+    100032: BunnyLPalm
+    100034: BunnyLThigh
+    100036: BunnyLToe11
+    100038: BunnyLToe12
+    100040: BunnyLUpperarm
+    100042: BunnyNeck
+    100044: BunnyPelvis
+    100046: BunnyRCalf
+    100048: BunnyRCollarbone
+    100050: BunnyRFinger11
+    100052: BunnyRFinger12
+    100054: BunnyRFinger21
+    100056: BunnyRFinger22
+    100058: BunnyRFoot
+    100060: BunnyRForearm
+    100062: BunnyRibcage
+    100064: BunnyRPalm
+    100066: BunnyRThigh
+    100068: BunnyRToe11
+    100070: BunnyRToe12
+    100072: BunnyRUpperarm
+    100074: BunnySpine1
+    100076: BunnySpine2
+    100078: Dummy_Ear_Left
+    100080: Dummy_Ear_Right
+    400000: //RootNode
+    400002: Bunny
+    400004: BunnyHead
+    400006: BunnyHeadBone001
+    400008: BunnyHeadBone002
+    400010: BunnyHeadBone002Bone001
+    400012: BunnyHeadBone002Bone001 1
+    400014: BunnyHeadBone003
+    400016: BunnyLCalf
+    400018: BunnyLCollarbone
+    400020: BunnyLFinger11
+    400022: BunnyLFinger12
+    400024: BunnyLFinger21
+    400026: BunnyLFinger22
+    400028: BunnyLFoot
+    400030: BunnyLForearm
+    400032: BunnyLPalm
+    400034: BunnyLThigh
+    400036: BunnyLToe11
+    400038: BunnyLToe12
+    400040: BunnyLUpperarm
+    400042: BunnyNeck
+    400044: BunnyPelvis
+    400046: BunnyRCalf
+    400048: BunnyRCollarbone
+    400050: BunnyRFinger11
+    400052: BunnyRFinger12
+    400054: BunnyRFinger21
+    400056: BunnyRFinger22
+    400058: BunnyRFoot
+    400060: BunnyRForearm
+    400062: BunnyRibcage
+    400064: BunnyRPalm
+    400066: BunnyRThigh
+    400068: BunnyRToe11
+    400070: BunnyRToe12
+    400072: BunnyRUpperarm
+    400074: BunnySpine1
+    400076: BunnySpine2
+    400078: Dummy_Ear_Left
+    400080: Dummy_Ear_Right
+    4300000: Bunny
+    7400000: Bunny_Idle
+    7400002: Bunny_Walk
+    7400004: Bunny_Run
+    7400006: Bunny_JumpUp
+    7400008: Bunny_JumpFall
+    7400010: Bunny_JumpFlip
+    7400012: Bunny_JumpLand
+    7400014: Bunny_Push
+    7400016: Bunny_BoxPickUp
+    7400018: Bunny_BoxCarry
+    7400020: Bunny_BoxDrop
+    7400022: Bunny_Die
+    9500000: //RootNode
+    13700000: Bunny
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bunny_Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_Walk
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_Run
+      takeName: Take 001
+      firstFrame: 220
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_JumpUp
+      takeName: Take 001
+      firstFrame: 260
+      lastFrame: 275
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_JumpFall
+      takeName: Take 001
+      firstFrame: 279
+      lastFrame: 299
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_JumpFlip
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 319
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_JumpLand
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 329
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_Push
+      takeName: Take 001
+      firstFrame: 331
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_BoxPickUp
+      takeName: Take 001
+      firstFrame: 370
+      lastFrame: 389
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_BoxCarry
+      takeName: Take 001
+      firstFrame: 405
+      lastFrame: 425
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_BoxDrop
+      takeName: Take 001
+      firstFrame: 430
+      lastFrame: 439
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bunny_Die
+      takeName: Take 001
+      firstFrame: 439
+      lastFrame: 470
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bunny
+        weight: 1
+      - path: BunnyPelvis
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyLThigh/BunnyLCalf/BunnyLFoot/BunnyLToe11/BunnyLToe12
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11
+        weight: 1
+      - path: BunnyPelvis/BunnyRThigh/BunnyRCalf/BunnyRFoot/BunnyRToe11/BunnyRToe12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger11/BunnyLFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyLCollarbone/BunnyLUpperarm/BunnyLForearm/BunnyLPalm/BunnyLFinger21/BunnyLFinger22
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone002/BunnyHeadBone002Bone001/Dummy_Ear_Right
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyNeck/BunnyHead/BunnyHeadBone003/BunnyHeadBone002Bone001
+          1/Dummy_Ear_Left
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger11/BunnyRFinger12
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21
+        weight: 1
+      - path: BunnyPelvis/BunnySpine1/BunnySpine2/BunnyRibcage/BunnyRCollarbone/BunnyRUpperarm/BunnyRForearm/BunnyRPalm/BunnyRFinger21/BunnyRFinger22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
