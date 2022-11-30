@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseResume : MonoBehaviour
 {
@@ -32,7 +33,8 @@ public class PauseResume : MonoBehaviour
         GamePaused = true;
         PauseScreen.SetActive(true);
         PauseButton.SetActive(false);
-        AudioSource.SetActive(false);
+       AudioSource.SetActive(false);
+      
     }
  
     public void ResumeGame()

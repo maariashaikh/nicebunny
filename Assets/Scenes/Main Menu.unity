@@ -317,6 +317,7 @@ GameObject:
   - component: {fileID: 46992781}
   - component: {fileID: 46992780}
   - component: {fileID: 46992784}
+  - component: {fileID: 46992785}
   m_Layer: 5
   m_Name: Courses
   m_TagString: Untagged
@@ -511,6 +512,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &46992785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46992779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9efdec51ed84cf1888ee9473e7046f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &81586193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1478,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 420844854}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46992785}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Cool Bunny
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &420844854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1942,7 +1967,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 541004277}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46992785}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Bad Bunny
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &541004277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7171,7 +7208,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1808592506}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46992785}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nice Bunny
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1808592506
 MonoBehaviour:
   m_ObjectHideFlags: 0
