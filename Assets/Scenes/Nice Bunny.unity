@@ -322,7 +322,11 @@ PrefabInstance:
     - target: {fileID: 4461438523450421942, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 585875468}
+      objectReference: {fileID: 585875469}
+    - target: {fileID: 4461438523938449444, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4461438523966786844, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
       propertyPath: m_text
       value: 'BADNESS SCORE: 0'
@@ -431,11 +435,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f50703abc621e54f948ddc5bb146f25, type: 3}
---- !u!1 &528171368 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4461438523450421933, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
-  m_PrefabInstance: {fileID: 389462489}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &569838608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,7 +1138,7 @@ PrefabInstance:
     - target: {fileID: 8015771424863987677, guid: 4ea6c348698924dd7aff0fb945c11664, type: 3}
       propertyPath: canvas
       value: 
-      objectReference: {fileID: 528171368}
+      objectReference: {fileID: 389462490}
     - target: {fileID: 8015771424863987677, guid: 4ea6c348698924dd7aff0fb945c11664, type: 3}
       propertyPath: noteObj
       value: 

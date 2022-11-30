@@ -8,7 +8,7 @@ public class PauseResume : MonoBehaviour
  
     public GameObject PauseScreen;
     public GameObject PauseButton;
-    public GameObject AudioSource;
+    public AudioSource AudioSource;
  
     bool GamePaused;
  
@@ -33,7 +33,7 @@ public class PauseResume : MonoBehaviour
         GamePaused = true;
         PauseScreen.SetActive(true);
         PauseButton.SetActive(false);
-       AudioSource.SetActive(false);
+        AudioSource.Pause();
       
     }
  
@@ -42,6 +42,6 @@ public class PauseResume : MonoBehaviour
         GamePaused = false;
         PauseScreen.SetActive(false);
         PauseButton.SetActive(true);
-        AudioSource.SetActive(true);
+        AudioSource.Play();
     }
 }
