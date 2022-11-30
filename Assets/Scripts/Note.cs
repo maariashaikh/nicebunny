@@ -19,8 +19,9 @@ public class Note : MonoBehaviour
     {
         if (isMoveable && other.tag == "Player")
         {
-            Debug.Log("hit player");
             this.gameObject.SetActive(false);
+            GameObject stage = GameObject.FindWithTag("Stage");
+            stage.GetComponent<RoadManager>().numOfCorrectNotes += 1;
         }
     }
 }

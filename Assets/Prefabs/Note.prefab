@@ -111,4 +111,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97935378ef1514433a8290ace63e20d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roadManager: {fileID: 0}
   isMoveable: 1

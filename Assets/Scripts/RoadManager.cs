@@ -4,21 +4,11 @@ using UnityEngine;
 
 public class RoadManager : MonoBehaviour
 {
-    List<float> whichNote = new List<float>() { 1, 2, 3, 3, 2, 1, 2, 1 };
-
-    public int noteMark = 0;
-
     public Transform noteObj;
-
     public string timerReset = "y";
-
     public float xPos;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public float numOfNotes = 0;
+    public float numOfCorrectNotes = 0;
 
     // Update is called once per frame
     void Update()
@@ -32,25 +22,26 @@ public class RoadManager : MonoBehaviour
 
     IEnumerator spawnNote()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.61856f);
+        int randomIndex = Random.Range(0, 3);
 
-        if (whichNote[noteMark] == 1)
+        if (randomIndex == 0)
         {
             xPos = -1.2f;
         }
 
-        if (whichNote[noteMark] == 2)
+        if (randomIndex == 1)
         {
             xPos = 0f;
         }
 
-        if (whichNote[noteMark] == 3)
+        if (randomIndex == 2)
         {
             xPos = 1.2f;
         }
 
-        noteMark += 1;
         timerReset = "y";
         Instantiate(noteObj, new Vector3(xPos, -0.57f, 12f), noteObj.rotation);
+        numOfNotes += 1;
     }
 }
