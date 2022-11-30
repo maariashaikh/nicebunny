@@ -23,13 +23,13 @@ public class Player : MonoBehaviour
             {
                 position.x = leftPositionX;
                 positionIndex = 0;
-                transform.DOMove(position, 0.5f);
+                transform.DOMove(position, 0.2f);
             }
             else if (positionIndex == 2)
             {
                 position.x = middlePositionX;
                 positionIndex = 1;
-                transform.DOMove(position, 0.5f);
+                transform.DOMove(position, 0.2f);
             }
 
         }
@@ -42,13 +42,13 @@ public class Player : MonoBehaviour
             {
                 position.x = rightPositionX;
                 positionIndex = 2;
-                transform.DOMove(position, 0.5f);
+                transform.DOMove(position, 0.2f);
             }
             else if (positionIndex == 0)
             {
                 position.x = middlePositionX;
                 positionIndex = 1;
-                transform.DOMove(position, 0.5f);
+                transform.DOMove(position, 0.2f);
             }
         }
     }
