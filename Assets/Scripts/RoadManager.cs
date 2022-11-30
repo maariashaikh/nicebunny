@@ -51,6 +51,6 @@ public class RoadManager : MonoBehaviour
 
         noteMark += 1;
         timerReset = "y";
-        Instantiate(noteObj, new Vector3(xPos, 0.7f, 1.4f), noteObj.rotation);
+        Instantiate(noteObj, new Vector3(xPos, -0.57f, 12f), noteObj.rotation);
     }
 }
