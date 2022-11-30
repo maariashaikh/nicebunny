@@ -1,10 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.UI;
+
+using TMPro;
 
 public class RoadManager : MonoBehaviour
 {
     public Transform noteObj;
+    public GameObject canvas;
+
     public string timerReset = "y";
     public float xPos;
     public float numOfNotes = 0;
@@ -43,5 +49,11 @@ public class RoadManager : MonoBehaviour
         timerReset = "y";
         Instantiate(noteObj, new Vector3(xPos, -0.57f, 12f), noteObj.rotation);
         numOfNotes += 1;
+    }
+
+    public void increaseScore()
+    {
+        numOfCorrectNotes += 1;
+        canvas.transform.GetChild(2).gameObject.GetComponent<TextMeshProUGUI>().SetText("BADNESS SCORE: " + numOfCorrectNotes);
     }
 }
