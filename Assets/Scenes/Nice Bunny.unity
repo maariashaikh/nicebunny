@@ -323,11 +323,6 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 585875468}
-<<<<<<< HEAD
-    - target: {fileID: 4461438523938449444, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-=======
     - target: {fileID: 4461438523966786844, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
       propertyPath: m_text
       value: 'BADNESS SCORE: 0'
@@ -335,7 +330,6 @@ PrefabInstance:
     - target: {fileID: 4461438523966786844, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
       propertyPath: m_fontSize
       value: 49.7
->>>>>>> 4d65ece78f0f6421942db8f4e74f94104292b253
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
