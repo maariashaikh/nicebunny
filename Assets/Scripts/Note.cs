@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using TMPro;
 
 public class Note : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class Note : MonoBehaviour
         {
             this.gameObject.SetActive(false);
             GameObject stage = GameObject.FindWithTag("Stage");
-            stage.GetComponent<RoadManager>().numOfCorrectNotes += 1;
+            stage.GetComponent<RoadManager>().increaseScore();
         }
     }
 }
