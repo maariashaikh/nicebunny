@@ -241,7 +241,7 @@ PrefabInstance:
     - target: {fileID: 4461438523450421942, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 2136939468}
+      objectReference: {fileID: 2136939469}
     - target: {fileID: 4461438523938449444, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -745,6 +745,18 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408562, guid: 8a5ca179e777c7c4c94fc7d42d3f14b7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 408562, guid: 8a5ca179e777c7c4c94fc7d42d3f14b7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 408562, guid: 8a5ca179e777c7c4c94fc7d42d3f14b7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 408562, guid: 8a5ca179e777c7c4c94fc7d42d3f14b7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1139,5 +1151,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage
       objectReference: {fileID: 0}
+    - target: {fileID: 3287831660278214125, guid: 4ea6c348698924dd7aff0fb945c11664, type: 3}
+      propertyPath: m_TagString
+      value: Stage
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015771424863987677, guid: 4ea6c348698924dd7aff0fb945c11664, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 107422820}
+    - target: {fileID: 8015771424863987677, guid: 4ea6c348698924dd7aff0fb945c11664, type: 3}
+      propertyPath: noteObj
+      value: 
+      objectReference: {fileID: 861436500743902447, guid: 0f50703abc621e54f948ddc5bb146f25, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea6c348698924dd7aff0fb945c11664, type: 3}
