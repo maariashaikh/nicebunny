@@ -239,6 +239,10 @@ PrefabInstance:
       value: Game Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 4461438523450421942, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 3287831659798539847}
+    - target: {fileID: 4461438523450421942, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2136939469}
@@ -1323,3 +1327,8 @@ PrefabInstance:
       objectReference: {fileID: 2136939469}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea6c348698924dd7aff0fb945c11664, type: 3}
+--- !u!1 &3287831659798539847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3287831660278214125, guid: 4ea6c348698924dd7aff0fb945c11664, type: 3}
+  m_PrefabInstance: {fileID: 3287831659798539846}
+  m_PrefabAsset: {fileID: 0}
