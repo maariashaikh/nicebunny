@@ -10,8 +10,15 @@ public class RoadManager : MonoBehaviour
 {
     public Transform noteObj;
     public GameObject canvas;
+    public int level;
+    public AudioSource audioSource;
+
+    public bool gameStart = false;
+    public string countdownTimerReset = "y";
+    public int countdownTime = 3;
 
     public string timerReset = "y";
+
     public float xPos;
     public float numOfNotes = 0;
     public float numOfCorrectNotes = 0;
@@ -19,16 +26,55 @@ public class RoadManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timerReset == "y")
+        if (countdownTimerReset == "y")
+        {
+            if (countdownTime > 0)
+            {
+                StartCoroutine(countdown());
+            }
+            else
+            {
+                gameStart = true;
+                canvas.transform.GetChild(3).gameObject.SetActive(false);
+                playAudio();
+            }
+
+            countdownTimerReset = "n";
+        }
+
+        if (gameStart && timerReset == "y")
         {
             StartCoroutine(spawnNote());
             timerReset = "n";
         }
     }
 
+    IEnumerator countdown()
+    {
+        yield return new WaitForSeconds(1);
+        countdownTime -= 1;
+        canvas.transform.GetChild(3).gameObject.GetComponent<TextMeshProUGUI>().SetText(countdownTime.ToString());
+        countdownTimerReset = "y";
+    }
+
     IEnumerator spawnNote()
     {
-        yield return new WaitForSeconds(0.61856f);
+        float secondPerBeat;
+
+        if (level == 1)
+        {
+            secondPerBeat = 0.61856f;
+        }
+        else if (level == 2)
+        {
+            secondPerBeat = 0.65217f;
+        }
+        else
+        {
+            secondPerBeat = 0.73171f;
+        }
+
+        yield return new WaitForSeconds(secondPerBeat);
         int randomIndex = Random.Range(0, 3);
 
         if (randomIndex == 0)
@@ -55,5 +101,21 @@ public class RoadManager : MonoBehaviour
     {
         numOfCorrectNotes += 1;
         canvas.transform.GetChild(2).gameObject.GetComponent<TextMeshProUGUI>().SetText("BADNESS SCORE: " + numOfCorrectNotes);
+    }
+
+    public void playAudio()
+    {
+        Debug.Log(audioSource);
+        audioSource.Play();
+    }
+
+    public void pauseGame()
+    {
+        audioSource.Pause();
+    }
+
+    public void resumeGame()
+    {
+        audioSource.Play();
     }
 }

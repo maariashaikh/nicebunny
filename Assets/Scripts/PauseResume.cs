@@ -5,13 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class PauseResume : MonoBehaviour
 {
- 
+    public GameObject stage;
+
     public GameObject PauseScreen;
     public GameObject PauseButton;
-    public AudioSource AudioSource;
  
     bool GamePaused;
- 
  
     // Start is called before the first frame update
     void Start()
@@ -33,8 +32,8 @@ public class PauseResume : MonoBehaviour
         GamePaused = true;
         PauseScreen.SetActive(true);
         PauseButton.SetActive(false);
-        AudioSource.Pause();
-      
+        stage.GetComponent<RoadManager>().pauseGame();
+
     }
  
     public void ResumeGame()
@@ -42,6 +41,6 @@ public class PauseResume : MonoBehaviour
         GamePaused = false;
         PauseScreen.SetActive(false);
         PauseButton.SetActive(true);
-        AudioSource.Play();
+        stage.GetComponent<RoadManager>().resumeGame();
     }
 }
