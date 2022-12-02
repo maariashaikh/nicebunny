@@ -247,6 +247,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4461438523966786844, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
+      propertyPath: m_text
+      value: 'BADNESS SCORE: 0
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461438523966786844, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
+      propertyPath: m_fontSize
+      value: 49.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461438523966786844, guid: 59b9f9b8a71c94e0b9d87b2f3a19631c, type: 3}
       propertyPath: m_fontColor.b
       value: 0.5471698
       objectReference: {fileID: 0}
