@@ -1,30 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
-
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
 using TMPro;
 
 public class RoadManager : MonoBehaviour
+
 {
     public Transform noteObj;
     public GameObject canvas;
     public int level;
     public AudioSource audioSource;
-
     public bool gameStart = false;
     public string countdownTimerReset = "y";
     public int countdownTime = 3;
-
     public string timerReset = "y";
-
     public float xPos;
     public float numOfNotes = 0;
-    public float numOfCorrectNotes = 0;
+    public int numOfCorrectNotes = 0;
 
-    // Update is called once per frame
+
+ // Update is called once per frame
     void Update()
+
     {
         if (countdownTimerReset == "y")
         {
@@ -43,10 +42,11 @@ public class RoadManager : MonoBehaviour
         }
 
         if (gameStart && timerReset == "y")
-        {
-            StartCoroutine(spawnNote());
+       {
+            StartCoroutine(spawnNote()); 
             timerReset = "n";
         }
+
     }
 
     IEnumerator countdown()
@@ -56,6 +56,13 @@ public class RoadManager : MonoBehaviour
         canvas.transform.GetChild(3).gameObject.GetComponent<TextMeshProUGUI>().SetText(countdownTime.ToString());
         countdownTimerReset = "y";
     }
+
+    public void savePrefs()
+    {
+        PlayerPrefs.SetInt("Notes", numOfCorrectNotes);
+        PlayerPrefs.Save();
+    }
+
 
     IEnumerator spawnNote()
     {
@@ -97,6 +104,33 @@ public class RoadManager : MonoBehaviour
         numOfNotes += 1;
     }
 
+     public void EndGame()
+     {
+        StartCoroutine(endGame()); 
+     }   
+
+     IEnumerator endGame()
+    {
+        float delay;
+
+        if (level == 1)
+        {
+            delay = 3f;
+        }
+        else if (level == 2)
+        {
+            delay = 3f;
+        }
+        else
+        {
+            delay = 3f;
+        }
+
+        yield return new WaitForSeconds(delay);
+   
+        SceneManager.LoadScene("Main Menu");
+    }
+
     public void increaseScore()
     {
         numOfCorrectNotes += 1;
@@ -118,4 +152,5 @@ public class RoadManager : MonoBehaviour
     {
         audioSource.Play();
     }
+
 }

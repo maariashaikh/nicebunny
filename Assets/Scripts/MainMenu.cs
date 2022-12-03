@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
 {
    
-    public GameObject TYM, CYC, Instructions, Menu, Scoreboard;
+    public GameObject TYM, CYC, Instructions, Menu;
 
 
     // Start is called before the first frame update
@@ -22,7 +22,6 @@ public class MainMenu : MonoBehaviour
         Menu.SetActive(false);
         TYM.SetActive(false);
         CYC.SetActive(false);
-        Scoreboard.SetActive(false);
         Instructions.SetActive(false);
         Main.SetActive(true);
 
